@@ -1,0 +1,1 @@
+<< -> p q '->RAT(ZLR(p) * ZLR(q), NNR(p) * NNR(q))' >>

@@ -1,0 +1,18 @@
+<< 1 -> n p
+  << IF
+       n 1 <=
+     THEN
+       0
+     ELSE
+       2 n -
+       FOR i
+         IF
+           0 n i MOD ==
+         THEN
+           0 'p' STO
+         END
+       NEXT
+       p
+     END
+  >>
+>>

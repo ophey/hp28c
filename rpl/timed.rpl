@@ -1,0 +1,19 @@
+<< DUP TYPE
+   IF
+     6 ==
+   THEN
+     RCL
+   END
+   MEM
+   -> t
+   << #123E SYSEVAL
+      't' STO
+      EVAL
+      #123E SYSEVAL
+      t -
+      B->R
+      8192 /
+      .017 -
+   >>
+>>   
+      

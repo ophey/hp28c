@@ -1,0 +1,1 @@
+<< -> a b 'IFTE(b, GGT(b, MOD(a,b)), a)' >>
