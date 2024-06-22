@@ -1,0 +1,3 @@
+<< -> b '1 + (NOT b)' >>
+
+// converts binary number b to its 2s complement

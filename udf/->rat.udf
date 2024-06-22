@@ -1,1 +1,4 @@
 << -> z n 'z + n*i' >>                        # Note: requires 36 CF
+
+// converts two real numbers z and n to complex number
+// (like R->C but can be used in algebraics)
