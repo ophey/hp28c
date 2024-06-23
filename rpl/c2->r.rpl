@@ -1,7 +1,7 @@
 << -> b << IF
              b 2 RCWS 1 - ^ >=     // b >= 2^(wordsize - 1) i.e. MSB is set
 	   THEN                    //
-	     b ->2c B->R NEG       // negate twos complement of b
+	     b ->2C B->R NEG       // negate twos complement of b
 	   ELSE                    //
 	     b B->R                // just b
 	   END

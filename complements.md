@@ -26,8 +26,54 @@ With this the range is extended (ever so slightly) to
     
 A simple program to convert a positive binary to its twos complement is therefore given as
 
-    << NOT 1 + >>
+    ->2C:  << NOT 1 + >>
 
 or more wastefully readable as
 
-<< -> b '(NOT b) + 1' >> for a user defined function.
+    ->2C:  << -> b '(NOT b) + 1' >> for a user defined function.
+
+With this we can add and subtract binary numbers as follows, (WS=4, base 10, alpha mode entry):
+
+    #5 #2 ->2C +  [ENTER]  ==>  #3
+
+This is like computing 5-2 as 5 2 CHS + with real numbers, i.e. ->2C acts like CHS but for binaries.
+Care has to be taken, not to exceed the range, e.g
+
+    #5 #14 + [ENTER]  ==> #3
+
+will (perhabs unintentionallay) subtract #2 instead of add #14 since
+
+    #2 ->2c [ENTER]  ==>  #14
+
+Of course ordinary conversion to real with B->R does not take twos complement for binary into account.
+
+For this we have to write our own C2->R program. So how do we do this.
+
+First we have to decide if the number is negative. In both complement representations this is the case whenever the highest bit is set. This is the case whenever a given binary, say b
+
+    b >= 2^(WS-1)
+
+so in RPL our test would be
+
+    b 2 RCWS 1 - ^ >=
+
+In this case we have to flip the sign on b (with ->2C as it were), convert that to real (B->R) and change the sign on the resulting real:
+
+    b ->2C B->R NEG
+
+Otherwise (i.e. most significant bit not set) we just convert b to real with B->R:
+
+    b B->R
+
+So here ist the complete progam for converting signed binaries to real:
+
+    C2->R:  << -> b << IF
+                         b 2 RCWS 1 - ^ >=     // b >= 2^(wordsize - 1) i.e. MSB is set
+	               THEN                    //
+                         b ->2C B->R NEG       // negate twos complement of b
+                       ELSE                    //
+                         b B->R                // just b
+                       END
+                    >> >>
+
+
