@@ -69,7 +69,7 @@ So here ist the complete progam for converting signed binaries to real:
 
     C2->R:  << -> b << IF
                          b 2 RCWS 1 - ^ >=     // b >= 2^(wordsize - 1) i.e. MSB is set
-	               THEN                    //
+                       THEN                    //
                          b ->2C B->R NEG       // negate twos complement of b
                        ELSE                    //
                          b B->R                // just b
