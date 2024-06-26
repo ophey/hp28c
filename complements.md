@@ -8,7 +8,7 @@ Ones complement simply inverts the bits of a given number to represent its negat
 
     0001b = 1d, so 1110b = -1d
 
-This can be done easily using the NOT function on the 28C. With this the range of representable numbers is
+This can easily be done using the NOT function on the 28C. With this the range of representable numbers is
 
     -( 2^(WS-1) - 1 )  to  2^(WS-1) - 1    e.g. -7 to 7  with a word size (WS) of 4
 
@@ -39,11 +39,34 @@ With this we can add and subtract binary numbers as follows, (WS=4, base 10, alp
 This is like computing 5-2 as 5 2 CHS + with real numbers, i.e. ->2C acts like CHS but for binaries.
 Care has to be taken, not to exceed the range, e.g
 
-    #5 #14 + [ENTER]  ==> #3
+    #5 #14 + [ENTER]  ==>  #3
 
-will (perhabs unintentionallay) subtract #2 instead of add #14 since
+will (perhaps unintentionallay) subtract #2 instead of add #14 since
 
     #2 ->2c [ENTER]  ==>  #14
+
+Twos complement conversion shares some properties with CHS, e.g. just as
+
+    x CHS CHS  ==>  x
+
+also
+
+    b ->2C ->2c  ==>  b , with -(2^(WS-1) - 1) <= b <= 2^(WS-1) - 1
+    
+Interestingly enough
+
+    -(2^(WS-1)) ->2C  ==>  -(2^(WS-1))
+
+e.g. for WS = 4
+
+    -(2^(4-1)) = -8 = #1000b
+
+and
+
+    #1000b ->2C = (NOT #1000b) + 1 = #0111b + 1 = #1000b
+
+
+
 
 Of course ordinary conversion to real with B->R does not take twos complement for binary into account.
 
