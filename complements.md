@@ -78,7 +78,16 @@ First we have to decide if the number is negative. In both complement representa
 
 so in RPL our test would be
 
-    b 2 RCWS 1 - ^ >=
+    b 2 RCWS 1 - ^ R->B >=
+
+Nah, this can be done quicker. Laboriously computing 2^(WS - 1) and converting to binary will always lead to
+
+    #100 .. 0
+
+i.e binrary integer with the highest bit set only. This can be done quick by taking a binary one and rotating it right just once, so our test now is:
+
+    b #1 RR >=
+
 
 In this case we have to flip the sign on b (with ->2C as it were), convert that to real (B->R) and change the sign on the resulting real:
 
@@ -91,11 +100,11 @@ Otherwise (i.e. most significant bit not set) we just convert b to real with B->
 So here ist the complete progam for converting signed binaries to real:
 
     C2->R:  << -> b << IF
-                         b 2 RCWS 1 - ^ >=     // b >= 2^(wordsize - 1) i.e. MSB is set
-                       THEN                    //
-                         b ->2C B->R NEG       // negate twos complement of b
-                       ELSE                    //
-                         b B->R                // just b
+                         b # 1 RR >=            // b >= 2^(wordsize - 1) i.e. MSB is set
+                       THEN                     //
+                         b ->2C B->R NEG        // negate twos complement of b
+                       ELSE                     //
+                         b B->R                 // just b
                        END
                     >> >>
 

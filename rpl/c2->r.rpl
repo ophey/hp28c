@@ -1,5 +1,5 @@
 << -> b << IF
-             b 2 RCWS 1 - ^ >=     // b >= 2^(wordsize - 1) i.e. MSB is set
+             b # 1 RR >=           // b >= 2^(wordsize - 1) i.e. MSB is set
 	   THEN                    //
 	     b ->2C B->R NEG       // negate twos complement of b
 	   ELSE                    //
