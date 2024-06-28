@@ -70,7 +70,7 @@ and
 
 Of course ordinary conversion to real with B->R does not take twos complement for binary into account.
 
-For this we have to write our own C2->R program. So how do we do this.
+For this we have to write our own C2->R program. So how do we do this?
 
 First we have to decide if the number is negative. In both complement representations this is the case whenever the highest bit is set. This is the case whenever a given binary, say b
 
@@ -84,7 +84,7 @@ Nah, this can be done quicker. Laboriously computing 2^(WS - 1) and converting t
 
     #100 .. 0
 
-i.e binrary integer with the highest bit set only. This can be done quick by taking a binary one and rotating it right just once, so our test now is:
+i.e a binary integer with the highest bit set only. This can be done quick by taking a binary one and rotating it right just once, so our test now is:
 
     b #1 RR >=
 

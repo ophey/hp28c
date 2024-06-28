@@ -1,0 +1,1 @@
+    << HEX ->STR DUP SIZE 3 SWAP SUB STR-> >>
