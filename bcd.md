@@ -38,5 +38,27 @@ Let's try this:
 
 Looks alright.
 
+Should be evem simpler the other way around, from real to BCD.
+
+Just turn on hexadecimal,
+
+    HEX
+
+convert the real to a string
+
+    ->STR
+
+prepend "#"
+
+    "#" SWAP +
+
+and extract the binary from the string
+
+    STR->
+
+So here is the program:
+
+    R->BCD:  << HEX ->STR "#" SWAP + STR-> >>
+
 
 
