@@ -38,7 +38,7 @@ Let's try this:
 
 Looks alright.
 
-Should be evem simpler the other way around, from real to BCD.
+Should be even simpler the other way around, from real to BCD.
 
 Just turn on hexadecimal,
 
