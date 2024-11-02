@@ -4,7 +4,7 @@ Binary Coded Decimals (BCD)
 Now what is this? Binary Coded Decimals use groups of 4 bits (aka nybbles) in a word to encode the numbers 0 to 9.
 There are numerous ways to do this, but the most straigthforward scheme is aptly called "natural binary coded decimal" and uses the usual bit patterns for 0 to 9, then skips A-F and moves to the next nybble.
 
-As a first example consider the decimal number 123. Each digit in this number can be encoden in 4 bits as follows:
+As a first example consider the decimal number 123. Each digit in this number can be encoded in 4 bits as follows:
 
     #1 = #0001
     #2 = #0010
