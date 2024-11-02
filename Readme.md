@@ -23,7 +23,7 @@ And I would probably see some use for the extra features of the S model, like hi
 
 So really it is down to the miserable 2K memory. Just think about it, the guy who wrote the fantastic "Cusomize your HP28" book considers the HP28C one of the worst calculators ever made. I felt sort of betrayed when I saw that [here](https://youtu.be/BOpzJRDbAnU?feature=shared), having bought a copy of his book in 1994 (in an actual book store, do they still have those?).
 
-But then, limitations, they say, spur creativity. So with the rich set of functions available, and alternatives regaring programming (RPL, algebraics and UDFs), I´d like to takkle some tasks normally not associated with a calculator. I will draw on 71B modules for inspiration and maybe go through some of the examples of the "Insights" book (awesome read!) just to figure them out for myself.
+But then, limitations, they say, spur creativity. So with the rich set of functions available, and alternatives regarding programming (RPL, algebraics and UDFs), I´d like to takkle some tasks normally not associated with a calculator. I will draw on 71B modules for inspiration and maybe go through some of the examples of the "Insights" book (awesome read!) just to figure them out for myself.
 
 Man, the 71, might just be something else to put on my list ...
 
