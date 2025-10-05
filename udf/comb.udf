@@ -1,0 +1,6 @@
+// COMB: combinations
+
+<< -> n r 'FACT(n)/(FACT(r)*FACT(n-r))' >>
+
+// COMB(n, r) computes the number of different r-tuples
+// out of a set of n elements

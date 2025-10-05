@@ -1,0 +1,9 @@
+// SUM: sums a given term U(n) over range [a, b]
+
+<< -> a b U
+  << 0 a b
+     FOR n
+       n U EVAL +
+     NEXT
+   >>
+ >>

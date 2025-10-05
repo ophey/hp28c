@@ -2,7 +2,7 @@
 Computer Math  on the 28C
 =========================
 
-The HP 16C programmable calculator had functions to manipulate and display binary integers, supporting the common bases, 16 (hex), 10 (decimal), 8 (octal) and 2 (binary) and arbitrary word sizes up to 64 bit. Almost identical to what the 28C offers (in the BINARY menu). However, the 16C also supports singned binary integers. It could be configured to use either ones complement or twos complement representation for negative numbers.
+The HP 16C programmable calculator had functions to manipulate and display binary integers, supporting the common bases, 16 (hex), 10 (decimal), 8 (octal) and 2 (binary) and arbitrary word sizes up to 64 bit. Almost identical to what the 28C offers (in the BINARY menu). However, the 16C also supports signed binary integers. It could be configured to use either ones complement or twos complement representation for negative numbers.
 
 Ones complement simply inverts the bits of a given number to represent its negative alter ego, e.g with 4 bit binary intergers
 

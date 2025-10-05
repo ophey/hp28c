@@ -1,0 +1,6 @@
+// BDF : binomial density function
+
+<< -> k n p 'COMB(n,k) * p^k * (1-p)^(n-k)' >>
+
+// BDF(k,n,p) computes binomial density for k events E
+// in n trials given probability p for P(E) 
