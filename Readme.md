@@ -11,7 +11,7 @@ One of these has always been the HP 28C (as in *not* the S), main reason because
 
 Same with the other stuff, I got a Newton 2000 for outrageous money in like 1996, I even bought TI PC Scheme when it was new (88 or 89) and studied that with the SICP book. So may be it´s only because I am invested financially? Who knows?
 
-First thing that got me in to programming though was a TI-59 and *that* I got for free. Still keep going back to that as well (emulator on my phone, the actuall device is in disrepair, as is traditionally appopriate). Fond memories ... the TI guys were real champs: I didn't have any docs on the Master Library Module so I wrote them a letter asking for one. In response they sent the manual with a note to the effect that maybe I could Xerox it and send the original back, seeing as it was the last copy they had? So, that is exactly what I did. Pre-Internet were amazing times that way ...
+First thing that got me in to programming though was a TI-59 and *that* I got for free. Still keep going back to that as well (emulator on my phone, the actual device is in disrepair, as is traditionally appropriate). Fond memories ... the TI guys were real champs: I didn't have any docs on the Master Library Module so I wrote them a letter asking for one. In response they sent the manual with a note to the effect that maybe I could Xerox it and send the original back, seeing as it was the last copy they had? So, that is exactly what I did. Pre-Internet were amazing times that way ...
 
 So, where was I, ah right, this is about the 28C. What about it?
 
