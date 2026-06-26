@@ -7,9 +7,9 @@ Hmm, yeah, I myself already am in need of help understanding my project. What am
 
 According to an observant former room mate (from way back) I keep circling through these IT related topics, things, paradigms, whatchamIcallits, obsessions really, like LISP/Scheme, the Apple Newton, functional programming at large ... and he was so right, I mean, like spot on. Thats what I do. Fullstop
 
-One of these has always been the HP 28C (as in *not* S), main reason because I bought one used in the early 90s, not knowing anything about it (e.g. that it had only 2K and there was already the S and maybe at that point even the 48). Guy I bought it from got himself an early Mac instead. Couldn´t blame him ...
+One of these has always been the HP 28C (as in *not* the S), main reason because I bought one used in the early 90s, not knowing anything about it (e.g. that it had only 2K and there was already the S and maybe at that point even the 48). Guy I bought it from got himself an early Mac instead. Couldn´t blame him ...
 
-Same with the other stuff, I got a Newton 2000 for outrageous money in like 1996, I even bought TI PC Scheme when it was new (88 or 89) and studied that with the SICP book. So may be it´s only because I am invested financially? Who kows?
+Same with the other stuff, I got a Newton 2000 for outrageous money in like 1996, I even bought TI PC Scheme when it was new (88 or 89) and studied that with the SICP book. So may be it´s only because I am invested financially? Who knows?
 
 First thing that got me in to programming though was a TI-59 and *that* I got for free. Still keep going back to that as well (emulator on my phone, the actuall device is in disrepair, as is traditionally appopriate). Fond memories ... the TI guys were real champs: I didn't have any docs on the Master Library Module so I wrote them a letter asking for one. In response they sent the manual with a note to the effect that maybe I could Xerox it and send the original back, seeing as it was the last copy they had? So, that is exactly what I did. Pre-Internet were amazing times that way ...
 
